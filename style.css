@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Roboto+Slab:wght@300;400;700&family=Rubik:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Overpass', sans-serif;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%) !important;
+   
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.card {
+    background-color:   hsl(214, 22%, 14%)!important;
+    border-radius: 30px !important;
+    
+   
+   
+}
+
+.card-body p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.img-container {
+   
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:hsl(213, 19%, 18%); 
+   
+}
+
+#submit {
+    background-color: hsl(25, 97%, 53%);
+    color:white; 
+    border-radius: 40px;
+    letter-spacing: 1px;
+    
+}
+
+#submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    font-family: inherit;
+    letter-spacing: 10px;
+}
+
+.card-body a {
+    background-color: hsl(213, 19%, 18%); 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    color:hsl(217, 12%, 63%); 
+    margin-right:12px; 
+}
+
+.card-body a:hover {
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+}
+
+
+.card-body a:focus {
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+}
+
+.orange-text {
+    color:hsl(25, 97%, 53%) !important;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 10px;
+    text-align: center;
+    padding:2px
+   
+}
+
+.illustration {
+    width: 150px !important; 
+}
+
+.thank-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px !important;
+    height: 400px; 
+}
+
+.thank-card .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card2 {
+    display: none;
+}
